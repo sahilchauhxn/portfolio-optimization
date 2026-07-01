@@ -35,6 +35,19 @@ This project implements the **Global Minimum Variance (GMV) portfolio** — the 
 The GMV portfolio is solved numerically with **`scipy.optimize.minimize`** (SLSQP), cross-checked against its **closed-form analytical solution**, and evaluated with a full institutional-grade performance and risk toolkit: annualized return, annualized volatility, Sharpe ratio, maximum drawdown, rolling volatility, and correlation structure.
 
 ---
+# Results
+
+| Efficient Frontier | Portfolio Allocation |
+|-------------------|----------------------|
+| ![](outputs/efficient_frontier.png) | ![](outputs/portfolio_allocation.png) |
+
+| Correlation Heatmap | Cumulative Returns |
+|--------------------|--------------------|
+| ![](outputs/correlation_heatmap.png) | ![](outputs/cumulative_returns.png) |
+
+| Rolling Volatility |
+|--------------------|
+| ![](outputs/rolling_volatility.png) |
 
 ## Project Structure
 
