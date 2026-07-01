@@ -253,6 +253,3 @@ This project intentionally uses classical, transparent methods appropriate for a
 - Michaud, R. O. (1989). *The Markowitz Optimization Enigma: Is 'Optimized' Optimal?*. Financial Analysts Journal, 45(1), 31–42.
 - Fama, E. F., & French, K. R. — [Kenneth R. French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html).
 
----
-
-*This project was built end-to-end as a self-contained, reproducible research pipeline: data acquisition → estimation → constrained optimization (SciPy/SLSQP) → performance/risk analytics → visualization — intended to demonstrate applied quantitative portfolio construction skills for Quant Research/Trading/Dev internship applications.*
